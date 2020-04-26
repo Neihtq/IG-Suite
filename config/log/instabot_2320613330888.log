@@ -1,0 +1,23 @@
+2020-04-26 19:41:04,082 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-26 19:41:04,082 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from c:\users\thien\.virtualenvs\ig_suite-m8dr_zdu\lib\site-packages\instabot\bot\bot.py
+2020-04-26 19:41:04,083 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-26 19:41:04,083 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-26 19:41:04,083 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=8aca2e61-2ee6-459e-8fb8-fc10b6c50c26
+- uuid=9234e4ac-5181-4bdc-a05d-de0e161891db
+- client_session_id=677f83a2-e707-453d-a9b6-2c9321c61f3b
+- device_id=android-9d990660e5764c55
+2020-04-26 19:41:04,084 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-26 19:41:05,050 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-26 19:41:05,405 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-26 19:41:05,406 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'edgarpaw'!
+2020-04-26 19:41:05,406 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw.checkpoint
+2020-04-26 19:42:20,951 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-04-26 19:42:21,202 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-04-26 19:42:21,204 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'C:/Users/thien/Pictures/Instagram/newspaper (3 of 3).jpg' is uploaded.
+2020-04-26 19:43:48,841 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-04-26 19:43:49,092 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-04-26 19:43:49,094 - instabot version: 0.117.0 (bot_photo) - INFO - Photo 'C:/Users/thien/Pictures/Instagram/newspaper (2 of 3).jpg' is uploaded.
+2020-04-26 19:47:51,891 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw.checkpoint
+2020-04-26 19:47:51,892 - instabot version: 0.117.0 (bot) - INFO - Total requests: 35

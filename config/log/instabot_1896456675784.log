@@ -1,0 +1,48 @@
+2020-04-26 19:52:09,363 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-26 19:52:09,364 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from c:\users\thien\.virtualenvs\ig_suite-m8dr_zdu\lib\site-packages\instabot\bot\bot.py
+2020-04-26 19:52:09,364 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-26 19:52:09,364 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-26 19:52:09,364 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=8aca2e61-2ee6-459e-8fb8-fc10b6c50c26
+- uuid=9234e4ac-5181-4bdc-a05d-de0e161891db
+- client_session_id=677f83a2-e707-453d-a9b6-2c9321c61f3b
+- device_id=android-9d990660e5764c55
+2020-04-26 19:52:09,365 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-26 19:52:10,619 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-26 19:52:10,977 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-26 19:52:10,977 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'edgarpaw'!
+2020-04-26 19:52:10,978 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw.checkpoint
+2020-04-26 19:52:13,699 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2020-04-26 19:52:14,059 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/8910020569/info/ returned response: <Response [200]>
+2020-04-26 19:52:14,379 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/8910020569/following/?max_id=&ig_sig_key_version=4&rank_token=8910020569_9234e4ac-5181-4bdc-a05d-de0e161891db returned response: <Response [200]>
+2020-04-26 19:52:16,829 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/8910020569/info/ returned response: <Response [200]>
+2020-04-26 19:52:17,170 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/8910020569/followers/?rank_token=8910020569_9234e4ac-5181-4bdc-a05d-de0e161891db returned response: <Response [200]>
+2020-04-26 19:52:17,629 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/1299111790/info/ returned response: <Response [200]>
+2020-04-26 19:52:17,629 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1299111790 with username ryanp4rk.
+2020-04-26 19:52:20,259 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/1299111790/ returned response: <Response [200]>
+2020-04-26 19:52:20,259 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 1299111790 with username ryanp4rk
+2020-04-26 19:59:29,080 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-26 19:59:29,080 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from c:\users\thien\.virtualenvs\ig_suite-m8dr_zdu\lib\site-packages\instabot\bot\bot.py
+2020-04-26 19:59:29,081 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-26 19:59:29,081 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-26 19:59:29,082 - instabot version: 0.117.0 (api_login) - INFO - Recovery from C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=8aca2e61-2ee6-459e-8fb8-fc10b6c50c26
+- uuid=9234e4ac-5181-4bdc-a05d-de0e161891db
+- client_session_id=677f83a2-e707-453d-a9b6-2c9321c61f3b
+- device_id=android-9d990660e5764c55
+2020-04-26 19:59:29,083 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-26 19:59:30,357 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-26 19:59:30,688 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-26 19:59:30,689 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'edgarpaw'!
+2020-04-26 19:59:30,690 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw.checkpoint
+2020-04-26 19:59:34,064 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowing non-followers.
+2020-04-26 19:59:34,470 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/8910020569/info/ returned response: <Response [200]>
+2020-04-26 19:59:34,765 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/8910020569/following/?max_id=&ig_sig_key_version=4&rank_token=8910020569_9234e4ac-5181-4bdc-a05d-de0e161891db returned response: <Response [200]>
+2020-04-26 19:59:35,169 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/8910020569/info/ returned response: <Response [200]>
+2020-04-26 19:59:35,459 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: friendships/8910020569/followers/?rank_token=8910020569_9234e4ac-5181-4bdc-a05d-de0e161891db returned response: <Response [200]>
+2020-04-26 19:59:35,903 - instabot version: 0.117.0 (api) - DEBUG - GET to endpoint: users/1299111790/info/ returned response: <Response [200]>
+2020-04-26 19:59:35,903 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1299111790 with username ryanp4rk.
+2020-04-26 19:59:38,309 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/1299111790/ returned response: <Response [200]>
+2020-04-26 19:59:38,309 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 1299111790 with username ryanp4rk
