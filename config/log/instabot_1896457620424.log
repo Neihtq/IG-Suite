@@ -22,3 +22,9 @@
 2020-04-26 19:59:35,903 - instabot version: 0.117.0 (bot_unfollow) - INFO - Going to unfollow `user_id` 1299111790 with username ryanp4rk.
 2020-04-26 19:59:38,309 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: friendships/destroy/1299111790/ returned response: <Response [200]>
 2020-04-26 19:59:38,309 - instabot version: 0.117.0 (bot_unfollow) - INFO - Unfollowed `user_id` 1299111790 with username ryanp4rk
+2020-04-27 00:56:50,497 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw.checkpoint
+2020-04-27 00:56:50,503 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 1/57
+2020-04-27 00:56:50,506 - instabot version: 0.117.0 (bot) - INFO - Total requests: 41
+2020-04-27 00:56:50,508 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: C:\Users\thien\PycharmProjects\ig_suite/config/edgarpaw.checkpoint
+2020-04-27 00:56:50,509 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 1/57
+2020-04-27 00:56:50,513 - instabot version: 0.117.0 (bot) - INFO - Total requests: 41

@@ -3,6 +3,7 @@ from PyQt5.QtWidgets import QWidget, QPushButton, QHBoxLayout, QDialog, QFileDia
 from PyQt5.QtGui import QPixmap
 from PyQt5 import QtCore
 from instagram_api import InstagramLib
+from scheduler import Scheduler
 
 
 import sys
@@ -89,8 +90,8 @@ class IGSuite(QWidget):
         caption = self.caption_box.toPlainText()
         self.ig.upload(self.path, caption)
 
-    def set_schedule(selfs):
-        pass
+    def set_schedule(self):
+        self.scheduler = Scheduler()
 
 
     def unfollow_unfollowers(self):
