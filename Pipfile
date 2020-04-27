@@ -10,6 +10,7 @@ python-instagram = "*"
 fbs = "*"
 pyqt5 = "*"
 instabot = "*"
+schedule = "*"
 
 [requires]
 python_version = "3.7"

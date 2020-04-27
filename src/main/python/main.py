@@ -90,8 +90,10 @@ class IGSuite(QWidget):
         caption = self.caption_box.toPlainText()
         self.ig.upload(self.path, caption)
 
+
     def set_schedule(self):
-        self.scheduler = Scheduler()
+        caption = self.caption_box.toPlainText()
+        self.scheduler = Scheduler(self.path, caption, self.ig)
 
 
     def unfollow_unfollowers(self):

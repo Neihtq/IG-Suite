@@ -1,0 +1,24 @@
+2020-04-27 20:13:34,480 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2020-04-27 20:13:34,480 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from /Users/quangthien.nguyen/.local/share/virtualenvs/IG-Suite-TZmIOvec/lib/python3.7/site-packages/instabot/bot/bot.py
+2020-04-27 20:13:34,481 - instabot version: 0.117.0 (api_login) - DEBUG - Loading cookies
+2020-04-27 20:13:34,481 - instabot version: 0.117.0 (api_login) - DEBUG - Loading uuids
+2020-04-27 20:13:34,481 - instabot version: 0.117.0 (api_login) - INFO - Recovery from /Users/quangthien.nguyen/prjcts/IG-Suite/config/edgarpaw_uuid_and_cookie.json: COOKIE True - UUIDs True - TIMING, DEVICE and ...
+- user-agent=Instagram 117.0.0.28.123 Android (28/9.0; 420dpi; 1080x1920; OnePlus; ONEPLUS A3003; OnePlus3; qcom; en_US; 180322800)
+- phone_id=8aca2e61-2ee6-459e-8fb8-fc10b6c50c26
+- uuid=9234e4ac-5181-4bdc-a05d-de0e161891db
+- client_session_id=3aee7d6c-87e4-41a6-819f-8ebbbc89b57f
+- device_id=android-9d990660e5764c55
+2020-04-27 20:13:34,481 - instabot version: 0.117.0 (api_login) - INFO - LOGIN FLOW! Just logged-in: False
+2020-04-27 20:13:35,617 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/timeline/ returned response: <Response [200]>
+2020-04-27 20:13:36,003 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: feed/reels_tray/ returned response: <Response [200]>
+2020-04-27 20:13:36,006 - instabot version: 0.117.0 (api) - INFO - Logged-in successfully as 'edgarpaw'!
+2020-04-27 20:13:36,006 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Loading Checkpoint file from: /Users/quangthien.nguyen/prjcts/IG-Suite/config/edgarpaw.checkpoint
+2020-04-27 20:18:27,834 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-04-27 20:18:28,099 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-04-27 20:18:28,101 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/Users/quangthien.nguyen/Pictures/wagong.jpg' is uploaded.
+2020-04-27 20:24:27,749 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: media/configure/? returned response: <Response [200]>
+2020-04-27 20:24:28,230 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/expose/ returned response: <Response [200]>
+2020-04-27 20:24:28,232 - instabot version: 0.117.0 (bot_photo) - INFO - Photo '/Users/quangthien.nguyen/Pictures/night_.jpg' is uploaded.
+2020-04-27 20:25:06,030 - instabot version: 0.117.0 (bot_checkpoint) - DEBUG - Saving Checkpoint file to: /Users/quangthien.nguyen/prjcts/IG-Suite/config/edgarpaw.checkpoint
+2020-04-27 20:25:06,030 - instabot version: 0.117.0 (bot) - INFO - Total unfollows: 1/68
+2020-04-27 20:25:06,030 - instabot version: 0.117.0 (bot) - INFO - Total requests: 47
