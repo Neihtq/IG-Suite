@@ -26,7 +26,7 @@ class IGSuite(QWidget):
         self.upload_button.clicked.connect(self.upload)
         self.scheduled_ul_button = QPushButton("Scheduled Upload")
         self.scheduled_ul_button.clicked.connect(self.set_schedule)
-        self.clear_button = QPushButton("Unfollow unfollowers")
+        self.clear_button = QPushButton("Unfollow non-followers")
         self.clear_button.clicked.connect(self.unfollow_unfollowers)
 
         self.img_view = QLabel(self)
@@ -72,9 +72,15 @@ class IGSuite(QWidget):
 
 
     def login(self):
-        print("Attempting Login")
-        self.ig = InstagramLib(self.username.text(), self.password.text())
-        self.dialog.accept()
+        try:
+            self.ig = InstagramLib(self.username.text(), self.password.text())
+            self.dialog.accept()
+        except:
+            dlg = QDialog()
+            ok = QPushButton("ok", dlg)
+            dlg.setWindowTitle("Login failed")
+            dlg.setWindowModality(QtCore.Qt.ApplicationModal)
+            dlg.exec_()
 
 
     def open_filename_dialog(self):
